@@ -1,0 +1,84 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.753)), url(Images/dark_wood.jpg);
+    background-size: cover;
+    height: 145vh;
+  }
+  
+  h1 {
+      color: white;
+  }
+  
+  .nav-bar {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      flex-direction: row;
+      margin: 10px;
+      line-height: 45px;
+      font-size: 25px;
+      padding: 20px 30px 20px 30px;
+      background-color: rgba(222, 184, 135, 0.315);
+  }
+  
+  .nav-bar a{
+      display: flex;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      font-size: 35px;
+      border: 2px solid white;
+      padding: 0 20px 0 20px;
+      margin: 0 20px 0 0;
+  }
+  
+  .nav-bar a:hover{
+      color: white;
+      background-color: rgba(0, 0, 0, 0.363);
+      padding: 0 20px 0 20px;
+  }
+
+  .profile_pic {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: wheat;
+  }
+
+  .profile_pic img{
+      width: 400px;
+      height: 400px;
+      padding: 10px 20px 20px 20px;
+  }
+
+  .portfolio {
+      display: flex;
+      justify-content: space-around;
+      text-align: center;
+      color: wheat;
+      font-size: 25px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .portfolio img {
+      width: 100px;
+      height: 100px;
+      padding-top: 20px;
+  }
+
+  .portfolio img:hover {
+    color: white;
+    background-color: rgba(255, 255, 0, 0.644);
+  }
+
+
+  @media only screen and (max-width: 1400px) {
+        .profile_pic {
+        display: inline-flex;
+        }
+        .nav-bar {
+        display: inline-block;
+        }
+  }

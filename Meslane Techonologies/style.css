@@ -1,0 +1,169 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.753)), url(Images/dark_wood.jpg);
+  background-size: cover;
+  height: 125vh;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: wheat;
+  font: oblique;
+}
+
+.nav-bar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px;
+    line-height: 45px;
+    font-size: 25px;
+    padding: 20px 30px 20px 30px;
+    background-color: rgba(222, 184, 135, 0.336);
+}
+
+.nav-bar a{
+    display: flex;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    border: 2px solid white;
+    padding: 0 20px 0 20px;
+    margin: 0 20px 0 0;
+}
+
+.nav-bar a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 0 20px 0 20px;
+}
+
+.nav-bar h1 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 0 0 30px;
+  }
+  
+/*Hide the images by default*/
+.mySlides  {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Number text (1/5 etc) */
+  .number-text {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 13px;
+  }
+
+  .text {
+    color: white;
+  }
+
+  .myQuotes {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .Bio {
+    text-align: justify;
+    color: wheat;
+    padding: 30px;
+    font-size: 25px;
+  }
+
+  .social-media {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .social-media img {
+    height: 30px;
+    width: 30px;
+    padding: 0 10px 20px 10px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(222, 184, 135, 0.308);
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .nav-bar {
+  display: inline-block;
+  }
+  .slideshow-container {
+    display: inline-block;
+  }
+  .footer {
+    display: inline-flex;
+  }
+}

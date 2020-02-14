@@ -1,0 +1,101 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(0, 0, 0, 0.753)), url(Images/dark_wood.jpg);
+    background-size: cover;
+    height: 152vh;
+  }
+  
+  h1 {
+      color: white;
+  }
+  
+  .nav-bar {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      flex-direction: row;
+      margin: 10px;
+      line-height: 45px;
+      font-size: 25px;
+      padding: 20px 30px 20px 30px;
+      background-color: rgba(222, 184, 135, 0.322);
+  }
+  
+  .nav-bar a{
+      display: flex;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      font-size: 35px;
+      border: 2px solid white;
+      padding: 0 20px 0 20px;
+      margin: 0 20px 0 0;
+  }
+  
+  .nav-bar a:hover{
+      color: white;
+      background-color: rgba(0, 0, 0, 0.363);
+      padding: 0 20px 0 20px;
+  }
+
+  .contact-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: wheat;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: rgba(255, 166, 0, 0.63);
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(245, 222, 179, 0.76);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .social-media img {
+    height: 30px;
+    width: 30px;
+    padding: 20px 10px 20px 10px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgba(222, 184, 135, 0.288);
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1400px) {
+  .nav-bar {
+  display: inline-block;
+  }
+  .footer {
+    display: inline-flex;
+  }
+}

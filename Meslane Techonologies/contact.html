@@ -1,0 +1,63 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' href='contact.css'/>
+    <title>Contact Me</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+    <div class="nav-bar">
+        <h1>MESLANE TECHNOLOGIES</h1>
+        <div><a href="Home.html">Home</a></div>
+        <div><a href="portfolio.html">Portfolio</a></div>
+        <div><a href="#contact">Contact Me</a></div>
+    </div>
+
+    
+    <div class='contact-form'>
+        <form id="contact-form">
+        <h2>Contact Form</h2>
+
+                Firstname:<br>
+                    <input type="text" id="firstname" name="firstname" placeholder="Firstname" required><br><br>
+
+                Lastname:<br>
+                    <input type="text" id="lastname" name="lastname" placeholder="Lastname"><br><br>
+
+
+                Email Address:<br>
+                    <input type="text" id="email" name="email" placeholder="Email Address" required><br><br>
+
+                Phone Number:<br>
+                    <input type="text" id="phone" name="phone" placeholder="Phone Number"><br><br>
+
+                Subject:<br>
+                <textarea id="subject" name="subject" placeholder="Write me an email. ." style="height:120px"></textarea><br><br>
+
+                <div class="g-recaptcha" data-sitekey="6LdAKtgUAAAAANBHmJyVcp6HbOypNQfphoaZILBK"></div>
+                <br/>
+                
+                <input type="submit" value="Submit">
+
+            </form>
+
+            <div class='social-media'>
+                <a href="https://www.facebook.com/zintle.meslane"><img src="Images/facebook.png"></a>
+                <a href="https://www.instagram.com/meslane_z/"><img src="Images/instagram.png"></a>
+                <a href="https://twitter.com/ZMeslane"><img src="Images/twitter.png"></a>
+            </div>
+            
+        </div>
+
+    <div class='footer'>
+
+            <p> &#9743; Cell: 0622956033 / 0812835354</p>
+            <p>Address: L687 Gwabeni Crescent<br> Khayelitsha, 7784</p>
+            <p>Email: 3570307@myuwc.ac.za</p>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
